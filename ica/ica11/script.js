@@ -31,9 +31,8 @@ function returnRandomStoryString() {
   const randomPlace = randomValueFromArray(places);
   const randomEvent = randomValueFromArray(events);
   let storyText = `It was 94 Fahrenheit outside, 
-  so ${randomCharacter} decided it was a great time to cook some eggs on a pan outside. When they got to ${randomPlace} , 
-  they stared in horror for a few moments, then ${randomCharacter} ${randomEvent}.
-   Bob saw the whole thing, and decided not to report it. ${randomCharacter} weighs 300 pounds, and it was a hot day.`
+  so ${randomCharacter} decided it was a great time to cook some eggs on a pan outside. When they got to ${randomPlace} , they realized they had to go back to retrieve the pan. Suddenly ${randomCharacter} ${randomEvent}.
+   Bob was a witness, but decided not to report it because they were hungry. ${randomCharacter} weighs 300 pounds.`
 
   return storyText;
 }
